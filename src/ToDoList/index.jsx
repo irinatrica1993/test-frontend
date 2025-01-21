@@ -24,6 +24,7 @@ export const ToDoList = () => {
         placeholder="Aggiungi un nuovo task"
       />
       <button onClick={addTask}>Aggiungi</button>
+      ciao
     </div>
   );
 };
