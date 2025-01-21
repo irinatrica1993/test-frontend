@@ -1,0 +1,120 @@
+/* Stili generali per l'intera applicazione */
+.App {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f6;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Stili generali per la sezione di gioco */
+.game {
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Stili per il risultato del gioco */
+.result {
+  margin-top: 20px;
+}
+
+.result p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Stili per le ProfileCard */
+.profile-card {
+  width: 250px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.profile-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.verified {
+  background-color: #4caf50;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card-profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-profile-info h2 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.card-profile-info p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.card-profile-info label {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Aggiungiamo uno stile per il componente TitleSubTitle */
+.title-subtitle h2 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.title-subtitle p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Stili per il contenitore delle card */
+.profile-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
